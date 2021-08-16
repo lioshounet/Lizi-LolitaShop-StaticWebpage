@@ -1,0 +1,422 @@
+/* 初始化***************************************************** */
+
+a, h2 {
+    text-decoration: none;
+    /* 链接取消下划线 */
+}
+
+* {
+    /* *渲染较慢 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+/* 字体引入************************************************** */
+
+@font-face {
+    font-family: 'iconfont_0';
+    /* 使用记录：下箭头 */
+    src: url('../fonts/font_25nj7l0qnpp/iconfont.eot');
+    src: url('../fonts/font_25nj7l0qnpp/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/font_25nj7l0qnpp/iconfont.woff2') format('woff2'), url('../fonts/font_25nj7l0qnpp/iconfont.woff') format('woff'), url('../fonts/font_25nj7l0qnpp/iconfont.ttf') format('truetype'), url('../fonts/font_25nj7l0qnpp/iconfont.svg#iconfont') format('svg');
+}
+
+/* 常用class************************************************* */
+
+.iconfont_0 {
+    font-family: "iconfont_0";
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+#w_bg {
+    background: rgba(244, 244, 244);
+}
+
+/* 箭头字体伪元素 */
+
+/* 导航栏******************************************************* */
+
+.shortcut {
+    height: 31px;
+    background-color: rgb(209, 209, 209);
+    font-size: 17px;
+}
+
+.shortcut .fl ul li {
+    float: left;
+}
+
+.shortcut .fr ul li {
+    float: right;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 17px;
+    margin: 3px 5px 6px;
+    background-color: rgb(27, 27, 27);
+}
+
+/* header********************************start*********************** */
+
+.header {
+    height: 120px;
+    position: relative;
+    background-color: #fcd1d1;
+}
+
+.logo {
+    position: relative;
+    height: 70px;
+    width: 210px;
+    top: 18px;
+    left: 20px;
+    background-color: rgba(234, 0, 255, 0);
+}
+
+.logo a {
+    display: block;
+    height: 80px;
+    width: 210px;
+    font-size: 0;
+    background: url(../img/logo工程/栗子logo.png) no-repeat;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 307px;
+    width: 555px;
+    height: 43px;
+    border-radius: 5px;
+    border: 2px solid rgba(253, 148, 148);
+}
+
+.search input {
+    float: left;
+    width: 458px;
+    height: 39px;
+    font-size: 17px;
+    padding-left: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search button {
+    float: left;
+    width: 93px;
+    height: 39px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(253, 148, 148);
+}
+
+.hotwords {
+    position: absolute;
+    top: 77px;
+    left: 311px;
+    color: aliceblue;
+}
+
+.hotwords a {
+    margin: 0 8px;
+}
+
+.shopcar {
+    position: absolute;
+    padding-left: 21px;
+    padding-top: 13px;
+    font-size: 18px;
+    color: aliceblue;
+    top: 28px;
+    left: 962px;
+    width: 160px;
+    height: 50px;
+    background-color: rgba(253, 148, 148);
+}
+
+.count {
+    position: absolute;
+    font-size: 14px;
+    height: 19px;
+    top: -5px;
+    left: 126px;
+    color: #ffffff;
+    background-color: rgb(255, 2, 2);
+    padding: 0 5px;
+    border-radius: 8px 8px 8px 0;
+}
+
+/* header********************************end*********************** */
+
+/* nav********************************stare*********************** */
+
+.nav {
+    height: 50px;
+    background-color: rgb(236, 226, 225);
+}
+
+.nav .w .dropdown {
+    /* display: inline-block; */
+    width: 250px;
+    height: 350px;
+    font-size: 25px;
+}
+
+.nav .w .dropdown .dt {
+    line-height: 50px;
+    font-size: 25px;
+    background-color: rgb(253, 148, 148);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /* border-top: 1px solid rgb(253, 148, 148);
+    border-left: 1px solid rgb(253, 148, 148);
+    border-right: 1px solid rgb(253, 148, 148); */
+}
+
+.nav .dropdown .dd ul {
+    border-bottom: 2px solid rgb(253, 148, 148);
+    border-left: 2px solid rgb(253, 148, 148);
+    border-right: 2px solid rgb(253, 148, 148);
+}
+
+.nav .dropdown .dd ul div {
+    color: rgb(116, 114, 112);
+    background-color: rgb(252, 209, 209);
+}
+
+.nav .dropdown .dd ul li {
+    position: relative;
+    /* display: none; */
+    line-height: 48px;
+    /* border: 1px solid rgb(252, 209, 209); */
+    font-size: 22px;
+    padding: 0px 0px 5px 26px;
+}
+
+.nav .dropdown .dd ul li p {
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    height: 55px;
+    /* color: rgb(255, 255, 255); */
+    top: 0px;
+    left: 213px;
+}
+
+.nav .navitems {
+    position: relative;
+    top: -350px;
+    left: 250px;
+    width: 950px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.nav .navitems ul {
+    background-color: rgb(236, 226, 225);
+}
+
+.nav .navitems ul a {
+    display: inline-block;
+    font-size: 22px;
+    color: rgb(46, 46, 46);
+    padding: 0 18px;
+    line-height: 50px;
+}
+
+/* nav********************************end*********************** */
+
+/* footer模块制作 ---------------------------------------------------------starte */
+
+.footer {
+    /* display: none; */
+    position: relative;
+    bottom: -450px;
+    /* left: 100px; */
+    height: 560px;
+    /* background-color: rgb(129, 150, 150); */
+    background-color: rgb(252, 209, 209);
+}
+
+.footer .mod_service ul {
+    /* position: relative; */
+    position: absolute;
+    top: 12px;
+    left: 360px;
+}
+
+.footer .w .mod_service ul li {
+    position: relative;
+    /* position: absolute; */
+    left: 0px;
+    height: 120px;
+    width: 210px;
+    float: left;
+    margin: 0 45px;
+    background-color: rgba(255, 137, 137, 0);
+}
+
+.footer .w .mod_service ul li:nth-of-type(1) div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(204, 116, 0);
+    background: url(../img/底栏精灵图.png) no-repeat 0 0;
+    /* background-size: 480px 120px; */
+}
+
+.footer .w .mod_service ul li:nth-of-type(2) div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(204, 116, 0);
+    background: url(../img/底栏精灵图.png) no-repeat -100px 0px;
+    /* background-size: 480px 120px; */
+}
+
+.footer .w .mod_service ul li:nth-of-type(3) div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(204, 116, 0);
+    background: url(../img/底栏精灵图.png) no-repeat -200px 0px;
+    /* background-size: 480px 120px; */
+}
+
+.footer .w .mod_service ul li:nth-of-type(4) div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(204, 116, 0);
+    background: url(../img/底栏精灵图.png) no-repeat -300px 0px;
+    /* background-size: 480px 120px; */
+}
+
+.footer .w .mod_service ul li p {
+    position: relative;
+    top: 22px;
+    left: 9px;
+    color: rgb(116, 114, 112);
+    font-size: 21px;
+}
+
+.footer .w .bottom {
+    position: absolute;
+    top: 150px;
+    left: 352px;
+    border-top: 2px solid rgb(116, 114, 112);
+    border-bottom: 2px solid rgb(116, 114, 112);
+    /* background-color: rgb(73, 73, 73); */
+}
+
+.footer .w .mod_bottom {
+    position: relative;
+    float: left;
+    top: 0px;
+    left: 45px;
+    margin: 0px 90px 0px 0px;
+    width: 210px;
+    height: 285px;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.footer .w .mod_bottom p {
+    position: relative;
+    font-size: 22px;
+    top: 36px;
+}
+
+.footer .w .mod_bottom p a {
+    color: rgb(116, 114, 112);
+    display: block;
+    text-align: center;
+}
+
+/* 二维码********************************************************************* */
+
+.footer .help {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.footer .help p {
+    display: inline-block;
+    position: relative;
+    font-size: 33px;
+    top: 155px;
+    left: 1648px;
+    color: rgb(116, 114, 112);
+}
+
+.footer .help_img {
+    display: inline-block;
+    position: relative;
+    top: 190px;
+    left: 1610px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.footer .help img {
+    position: absolute;
+    display: inline-block;
+    top: 13px;
+    left: 10px;
+}
+
+/* mod_copyright*************************** */
+
+.mod_copyright {
+    position: relative;
+}
+
+.mod_copyright ul {
+    position: relative;
+    top: 212px;
+    left: 568px;
+}
+
+.mod_copyright ul li {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 15px;
+    margin-right: 5px;
+    color: rgb(116, 114, 112);
+}
+
+.mod_copyright ul li:nth-of-type(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: rgb(116, 114, 112);
+}
+
+.mod_copyright p {
+    position: relative;
+    top: 212px;
+    left: 438px;
+    font-size: 15px;
+    color: rgb(116, 114, 112);
+}
+
+/* footer模块制作 ---------------------------------------------------------end */

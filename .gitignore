@@ -1,0 +1,8 @@
+img/总图库
+img/*.psd
+img/*/*.psd
+img/*/*/*.psd
+img/*/*/*/*.psd
+
+img/总图库
+

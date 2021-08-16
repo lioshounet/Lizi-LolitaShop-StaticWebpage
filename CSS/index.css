@@ -1,0 +1,514 @@
+* {
+    /* *渲染较慢 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main********************************开始************************** */
+
+.main {
+    /* display: inline; */
+    height: 420px;
+}
+
+/* focus********************************开始********* */
+
+.focus {
+    position: relative;
+    /* display: inline-block; */
+    top: 10px;
+    left: 260px;
+    width: 650px;
+    height: 415px;
+    background-color: rgb(211, 224, 220);
+    background: url(../img/main/focus/focus_img.png) -1300px 0px;
+}
+
+.main .focus div {
+    position: absolute;
+    height: 80px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.233);
+    top: 167px;
+    font-size: 50px;
+    padding-left: 0px;
+}
+
+.main .focus ul li {
+    display: inline-block;
+    position: relative;
+    top: 387px;
+    left: 290px;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    background-color: rgba(61, 61, 61, 0.534);
+}
+
+.main .focus div:nth-of-type(1) {
+    border-radius: 0 5px 5px 0;
+    left: 0px;
+}
+
+.main .focus div:nth-of-type(2) {
+    border-radius: 5px 0 0 5px;
+    left: 610px;
+}
+
+.main .focus div:nth-of-type(1) p {
+    cursor: default;
+    color: rgba(255, 255, 255, 0.753);
+    position: relative;
+    top: 2px;
+    left: -5px;
+}
+
+.main .focus div:nth-of-type(2) p {
+    cursor: default;
+    color: rgba(255, 255, 255, 0.753);
+    position: relative;
+    top: 2px;
+    left: -2px;
+}
+
+/* focus********************************结束********* */
+
+/* newsflash*****************************开始********* */
+
+.newsflash {
+    position: relative;
+    /* display: inline-block; */
+    top: -405px;
+    left: 920px;
+    width: 280px;
+    height: 415px;
+    background-color: rgb(255, 166, 166);
+}
+
+.newsflash .info {
+    position: relative;
+    height: 250px;
+    width: 280px;
+    background-color: rgb(236, 226, 225);
+}
+
+.newsflash .info ul {
+    padding-top: 4px;
+}
+
+.newsflash .info li {
+    cursor: default;
+    position: relative;
+    display: block;
+    color: rgb(116, 114, 112);
+    font-size: 20px;
+    line-height: 48px;
+    background-color: rgb(236, 226, 225);
+}
+
+.newsflash .info a:nth-child(2n) li {
+    color: rgb(255, 255, 255);
+    background-color: rgb(179, 179, 179);
+}
+
+.newsflash .menu {
+    position: relative;
+    height: 165px;
+    width: 280px;
+    background-color: rgb(129, 129, 129);
+    background: url(../img/main/newsflash/menu_bg.png);
+}
+
+.newsflash .menu li {
+    float: left;
+    margin: 0px;
+    /* display: inline-block; */
+    /* border-right: 1px solid rgb(180, 180, 180); */
+    /* border-bottom: 1px solid rgb(180, 180, 180); */
+    width: 70px;
+    height: 83px;
+    /* background-color: rgb(156, 206, 195); */
+}
+
+.newsflash .menu li div {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    /* background-color: rgb(255, 81, 81); */
+    background: url(../img/main/newsflash/menu_li_bg.png);
+}
+
+.newsflash .menu li:nth-child(2) div {
+    background-position: -50px 0px;
+}
+
+.newsflash .menu li:nth-child(3) div {
+    background-position: -100px 0px;
+}
+
+.newsflash .menu li:nth-child(4) div {
+    background-position: -150px 0px;
+}
+
+.newsflash .menu li:nth-child(5) div {
+    background-position: 0px -50px;
+}
+
+.newsflash .menu li:nth-child(6) div {
+    background-position: -50px -50px;
+}
+
+.newsflash .menu li:nth-child(7) div {
+    background-position: -100px -50px;
+}
+
+.newsflash .menu li:nth-child(8) div {
+    background-position: -150px -50px;
+}
+
+.newsflash .menu li div p {
+    font-size: 18px;
+    position: relative;
+    top: 46px;
+    left: 9px;
+    color: rgb(255, 255, 255);
+}
+
+/* newsflash********************************结束********* */
+
+/* main********************************结束********* */
+
+/* recom --------------------------------------start */
+
+.recom {
+    position: relative;
+    top: -77px;
+    height: 350px;
+    background-color: rgba(32, 25, 25, 0);
+}
+
+.recom ul {
+    display: inline-block;
+    position: absolute;
+    top: 103px;
+    left: 0px;
+    /* width: 1200px; */
+    height: 270px;
+    padding-left: 4px;
+    background-color: rgb(236, 226, 225);
+}
+
+.recom ul li:nth-child(odd) {
+    position: relative;
+    float: left;
+    top: 31px;
+    left: 0px;
+    height: 200px;
+    width: 280px;
+    background-color: rgb(252, 209, 209);
+}
+
+.recom ul li:nth-child(even) {
+    position: relative;
+    float: left;
+    top: 13px;
+    left: 0px;
+    height: 238px;
+    width: 6px;
+    margin: 0px 9px;
+    background-color: rgb(214, 214, 214);
+}
+
+.recom ul div {
+    position: absolute;
+    top: -75px;
+    left: 50px;
+    width: 165px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(236, 226, 225);
+}
+
+.recom ul div p {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-size: 26px;
+    color: rgb(46, 46, 46);
+}
+
+/* best_sell***********************************开始******************* */
+
+.best_sell {
+    position: relative;
+    height: 260px;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(236, 226, 225);
+}
+
+.best_sell img {
+    position: relative;
+    top: -60px;
+}
+
+/* best_sell***********************************结束******************* */
+
+/* 经常看---------------------------------------------------start****** */
+
+.offten_look {
+    position: relative;
+    /* width: 100px; */
+    height: 350px;
+    top: 40px;
+    left: 0px;
+    background-color: rgb(255, 166, 166);
+}
+
+.offten_look .big {
+    position: absolute;
+    /* float: left; */
+    width: 850px;
+    height: 350px;
+    top: 0px;
+    left: 0px;
+    /* background-color: rgb(14, 145, 206); */
+}
+
+.offten_look .big img {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+}
+
+.offten_look ul li {
+    position: relative;
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    background-color: rgb(255, 166, 166);
+}
+
+.offten_look ul {
+    position: relative;
+    height: 350px;
+}
+
+.offten_look ul li div {
+    width: 100px;
+    height: 100px;
+    background: url(../img/offten_look/精灵图.png);
+    /* position: relative; */
+    position: absolute;
+}
+
+.offten_look .down_ul {
+    top: -171px;
+}
+
+.offten_look li p {
+    position: absolute;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+/* 1 li************** */
+
+.offten_look .up_ul li:nth-of-type(1) {
+    top: 0px;
+    left: 830px;
+    margin: 0px;
+}
+
+.offten_look .up_ul li:nth-of-type(1) div {
+    top: 18px;
+    left: 37px;
+}
+
+.offten_look .up_ul li:nth-of-type(1) p {
+    top: 118px;
+    left: 49px;
+}
+
+/* 2 li******************* */
+
+.offten_look .up_ul li:nth-of-type(2) {
+    top: 0px;
+    left: 827px;
+    margin: 0px;
+}
+
+.offten_look .up_ul li:nth-of-type(2) div {
+    top: 18px;
+    left: 37px;
+    background-position-x: -100px;
+}
+
+.offten_look .up_ul li:nth-of-type(2) p {
+    top: 118px;
+    left: 49px;
+}
+
+/* 3 li******************* */
+
+.offten_look .down_ul li:nth-of-type(1) {
+    top: -4px;
+    left: 830px;
+    margin: 0px;
+}
+
+.offten_look .down_ul li:nth-of-type(1) div {
+    top: 18px;
+    left: 37px;
+    background-position-y: -100px;
+}
+
+.offten_look .down_ul li:nth-of-type(1) p {
+    top: 118px;
+    left: 49px;
+}
+
+/* 4 li ****************** */
+
+.offten_look .down_ul li:nth-of-type(2) {
+    top: -4px;
+    left: 827px;
+    margin: 0px;
+}
+
+.offten_look .down_ul li:nth-of-type(2) div {
+    top: 18px;
+    left: 37px;
+    background-position-y: -100px;
+    background-position-x: -100px;
+}
+
+.offten_look .down_ul li:nth-of-type(2) p {
+    top: 118px;
+    left: 49px;
+}
+
+.offten_look .kuang {
+    position: absolute;
+    top: 0px;
+    left: 830px;
+}
+
+/* 经常看---------------------------------------------------end******** */
+
+/* 货架-----------------------------------------------------start****** */
+
+.goods {
+    position: relative;
+    top: 200px;
+    left: 0px;
+    display: block;
+    height: 1612px;
+    background-color: rgb(244, 244, 244);
+}
+
+.goods .shelf {
+    position: relative;
+    height: 400px;
+    top: -18px;
+    background-color: rgb(244, 244, 244);
+    margin-bottom: 3px;
+}
+
+.goods p {
+    display: inline-block;
+    position: relative;
+    top: -40px;
+    left: 0px;
+}
+
+.goods .huojia {
+    position: relative;
+    top: -35px;
+    height: 75px;
+    background-color: rgb(236, 226, 225);
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.goods .huojia div {
+    position: absolute;
+    width: 520px;
+    height: 20px;
+    top: 28px;
+    background: rgba(114, 114, 114, 0.39);
+}
+
+.goods .huojia img {
+    position: absolute;
+    top: 0px;
+    left: 520px;
+}
+
+.goods .huojia div:nth-of-type(2) {
+    left: 680px;
+}
+
+/* 货架-----------------------------------------------------end****** */
+
+/* 商品卡片-------------------------------------------------start****** */
+
+.goods .w .shelf .one_goods {
+    display: inline-block;
+    position: relative;
+    height: 400px;
+    width: 297px;
+    background-color: rgb(236, 226, 225);
+    border-radius: 15px;
+}
+
+.goods .w .shelf .one_goods div {
+    height: 230px;
+    width: 250px;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.one_goods img {
+    border-radius: 10px;
+}
+
+.one_goods .introduction {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    position: relative;
+    font-size: 22px;
+    flood-color: rgb(46, 46, 46);
+    top: 21px;
+    left: 0px;
+}
+
+.one_goods .price {
+    position: absolute;
+    font-size: 24px;
+    flood-color: rgb(46, 46, 46);
+    top: 328px;
+    left: 0px;
+}
+
+.one_goods .info {
+    position: absolute;
+    font-size: 16px;
+    flood-color: rgb(46, 46, 46);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    top: 334px;
+    left: 82px;
+}
+
+/* <!-- 商品卡片-----------------------------------------------end -** */

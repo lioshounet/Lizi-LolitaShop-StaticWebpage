@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="简介">
+    <meta name="keywords" content="关键词">
+    <title>index</title>
+    <link rel="shortcut icon" href="栗.ico">
+    <!-- <link rel="stylesheet" href="../CSS/index.css"> -->
+    <style>
+        * {
+            /* *渲染较慢 */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* main********************************开始************************** */
+
+        .main {
+            /* display: inline; */
+            height: 420px;
+        }
+
+        /* focus********************************开始********* */
+
+        .focus {
+            position: relative;
+            /* display: inline-block; */
+            top: 10px;
+            left: 260px;
+            width: 650px;
+            height: 415px;
+            background-color: rgb(211, 224, 220);
+            background: url(../img/main/focus/focus_img.png) -1300px 0px;
+        }
+
+        .main .focus div {
+            position: absolute;
+            height: 80px;
+            width: 40px;
+            background-color: rgba(0, 0, 0, 0.233);
+            top: 167px;
+            font-size: 50px;
+            padding-left: 0px;
+        }
+
+        .main .focus ul li {
+            display: inline-block;
+            position: relative;
+            top: 387px;
+            left: 290px;
+            width: 10px;
+            height: 10px;
+            margin-left: 10px;
+            background-color: rgba(61, 61, 61, 0.534);
+        }
+
+        .main .focus div:nth-of-type(1) {
+            border-radius: 0 5px 5px 0;
+            left: 0px;
+        }
+
+        .main .focus div:nth-of-type(2) {
+            border-radius: 5px 0 0 5px;
+            left: 610px;
+        }
+
+        .main .focus div:nth-of-type(1) p {
+            cursor: default;
+            color: rgba(255, 255, 255, 0.753);
+            position: relative;
+            top: 2px;
+            left: -5px;
+        }
+
+        .main .focus div:nth-of-type(2) p {
+            cursor: default;
+            color: rgba(255, 255, 255, 0.753);
+            position: relative;
+            top: 2px;
+            left: -2px;
+        }
+
+        /* focus********************************结束********* */
+
+        /* newsflash*****************************开始********* */
+
+        .newsflash {
+            position: relative;
+            /* display: inline-block; */
+            top: -405px;
+            left: 920px;
+            width: 280px;
+            height: 415px;
+            background-color: rgb(255, 166, 166);
+        }
+
+        .newsflash .info {
+            position: relative;
+            height: 250px;
+            width: 280px;
+            background-color: rgb(236, 226, 225);
+        }
+
+        .newsflash .info ul {
+            padding-top: 4px;
+        }
+
+        .newsflash .info li {
+            cursor: default;
+            position: relative;
+            display: block;
+            color: rgb(116, 114, 112);
+            font-size: 20px;
+            line-height: 48px;
+            background-color: rgb(236, 226, 225);
+        }
+
+        .newsflash .info a:nth-child(2n) li {
+            color: rgb(255, 255, 255);
+            background-color: rgb(179, 179, 179);
+        }
+
+        .newsflash .menu {
+            position: relative;
+            height: 165px;
+            width: 280px;
+            background-color: rgb(129, 129, 129);
+            background: url(../img/main/newsflash/menu_bg.png);
+        }
+
+        .newsflash .menu li {
+            float: left;
+            margin: 0px;
+            /* display: inline-block; */
+            /* border-right: 1px solid rgb(180, 180, 180); */
+            /* border-bottom: 1px solid rgb(180, 180, 180); */
+            width: 70px;
+            height: 83px;
+            /* background-color: rgb(156, 206, 195); */
+        }
+
+        .newsflash .menu li div {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 5px;
+            left: 10px;
+            /* background-color: rgb(255, 81, 81); */
+            background: url(../img/main/newsflash/menu_li_bg.png);
+        }
+
+        .newsflash .menu li:nth-child(2) div {
+            background-position: -50px 0px;
+        }
+
+        .newsflash .menu li:nth-child(3) div {
+            background-position: -100px 0px;
+        }
+
+        .newsflash .menu li:nth-child(4) div {
+            background-position: -150px 0px;
+        }
+
+        .newsflash .menu li:nth-child(5) div {
+            background-position: 0px -50px;
+        }
+
+        .newsflash .menu li:nth-child(6) div {
+            background-position: -50px -50px;
+        }
+
+        .newsflash .menu li:nth-child(7) div {
+            background-position: -100px -50px;
+        }
+
+        .newsflash .menu li:nth-child(8) div {
+            background-position: -150px -50px;
+        }
+
+        .newsflash .menu li div p {
+            font-size: 18px;
+            position: relative;
+            top: 46px;
+            left: 9px;
+            color: rgb(255, 255, 255);
+        }
+
+        /* newsflash********************************结束********* */
+
+        /* main********************************结束********* */
+
+        /* recom --------------------------------------start */
+
+        .recom {
+            position: relative;
+            top: -77px;
+            height: 350px;
+            background-color: rgba(32, 25, 25, 0);
+        }
+
+        .recom ul {
+            display: inline-block;
+            position: absolute;
+            top: 103px;
+            left: 0px;
+            /* width: 1200px; */
+            height: 270px;
+            padding-left: 4px;
+            background-color: rgb(236, 226, 225);
+        }
+
+        .recom ul li:nth-child(odd) {
+            position: relative;
+            float: left;
+            top: 31px;
+            left: 0px;
+            height: 200px;
+            width: 280px;
+            background-color: rgb(252, 209, 209);
+        }
+
+        .recom ul li:nth-child(even) {
+            position: relative;
+            float: left;
+            top: 13px;
+            left: 0px;
+            height: 238px;
+            width: 6px;
+            margin: 0px 9px;
+            background-color: rgb(214, 214, 214);
+        }
+
+        .recom ul div {
+            position: absolute;
+            top: -75px;
+            left: 50px;
+            width: 165px;
+            height: 60px;
+            border-radius: 5px;
+            background-color: rgb(236, 226, 225);
+        }
+
+        .recom ul div p {
+            position: relative;
+            top: 10px;
+            left: 30px;
+            font-size: 26px;
+            color: rgb(46, 46, 46);
+        }
+
+        /* best_sell***********************************开始******************* */
+
+        .best_sell {
+            position: relative;
+            height: 260px;
+            top: 0px;
+            left: 0px;
+            background-color: rgb(236, 226, 225);
+        }
+
+        .best_sell img {
+            position: relative;
+            top: -60px;
+        }
+
+        /* best_sell***********************************结束******************* */
+
+        /* 经常看---------------------------------------------------start****** */
+
+        .offten_look {
+            position: relative;
+            /* width: 100px; */
+            height: 350px;
+            top: 40px;
+            left: 0px;
+            background-color: rgb(255, 166, 166);
+        }
+
+        .offten_look .big {
+            position: absolute;
+            /* float: left; */
+            width: 850px;
+            height: 350px;
+            top: 0px;
+            left: 0px;
+            /* background-color: rgb(14, 145, 206); */
+        }
+
+        .offten_look .big img {
+            position: absolute;
+            top: 14px;
+            left: 20px;
+        }
+
+        .offten_look ul li {
+            position: relative;
+            display: inline-block;
+            width: 175px;
+            height: 175px;
+            background-color: rgb(255, 166, 166);
+        }
+
+        .offten_look ul {
+            position: relative;
+            height: 350px;
+        }
+
+        .offten_look ul li div {
+            width: 100px;
+            height: 100px;
+            background: url(../img/offten_look/精灵图.png);
+            /* position: relative; */
+            position: absolute;
+        }
+
+        .offten_look .down_ul {
+            top: -171px;
+        }
+
+        .offten_look li p {
+            position: absolute;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+        }
+
+        /* 1 li************** */
+
+        .offten_look .up_ul li:nth-of-type(1) {
+            top: 0px;
+            left: 830px;
+            margin: 0px;
+        }
+
+        .offten_look .up_ul li:nth-of-type(1) div {
+            top: 18px;
+            left: 37px;
+        }
+
+        .offten_look .up_ul li:nth-of-type(1) p {
+            top: 118px;
+            left: 49px;
+        }
+
+        /* 2 li******************* */
+
+        .offten_look .up_ul li:nth-of-type(2) {
+            top: 0px;
+            left: 827px;
+            margin: 0px;
+        }
+
+        .offten_look .up_ul li:nth-of-type(2) div {
+            top: 18px;
+            left: 37px;
+            background-position-x: -100px;
+        }
+
+        .offten_look .up_ul li:nth-of-type(2) p {
+            top: 118px;
+            left: 49px;
+        }
+
+        /* 3 li******************* */
+
+        .offten_look .down_ul li:nth-of-type(1) {
+            top: -4px;
+            left: 830px;
+            margin: 0px;
+        }
+
+        .offten_look .down_ul li:nth-of-type(1) div {
+            top: 18px;
+            left: 37px;
+            background-position-y: -100px;
+        }
+
+        .offten_look .down_ul li:nth-of-type(1) p {
+            top: 118px;
+            left: 49px;
+        }
+
+        /* 4 li ****************** */
+
+        .offten_look .down_ul li:nth-of-type(2) {
+            top: -4px;
+            left: 827px;
+            margin: 0px;
+        }
+
+        .offten_look .down_ul li:nth-of-type(2) div {
+            top: 18px;
+            left: 37px;
+            background-position-y: -100px;
+            background-position-x: -100px;
+        }
+
+        .offten_look .down_ul li:nth-of-type(2) p {
+            top: 118px;
+            left: 49px;
+        }
+
+        .offten_look .kuang {
+            position: absolute;
+            top: 0px;
+            left: 830px;
+        }
+
+        /* 经常看---------------------------------------------------end******** */
+
+        /* 货架-----------------------------------------------------start****** */
+
+        .goods {
+            position: relative;
+            top: 200px;
+            left: 0px;
+            display: block;
+            height: 1612px;
+            background-color: rgb(244, 244, 244);
+        }
+
+        .goods .shelf {
+            position: relative;
+            height: 400px;
+            top: -18px;
+            background-color: rgb(244, 244, 244);
+            margin-bottom: 3px;
+        }
+
+        .goods p {
+            display: inline-block;
+            position: relative;
+            top: -40px;
+            left: 0px;
+        }
+
+        .goods .huojia {
+            position: relative;
+            top: -35px;
+            height: 75px;
+            background-color: rgb(236, 226, 225);
+            border-radius: 15px;
+            margin-bottom: 50px;
+        }
+
+        .goods .huojia div {
+            position: absolute;
+            width: 520px;
+            height: 20px;
+            top: 28px;
+            background: rgba(114, 114, 114, 0.39);
+        }
+
+        .goods .huojia img {
+            position: absolute;
+            top: 0px;
+            left: 520px;
+        }
+
+        .goods .huojia div:nth-of-type(2) {
+            left: 680px;
+        }
+
+        /* 货架-----------------------------------------------------end****** */
+
+        /* 商品卡片-------------------------------------------------start****** */
+
+        .goods .w .shelf .one_goods {
+            display: inline-block;
+            position: relative;
+            height: 400px;
+            width: 297px;
+            background-color: rgb(236, 226, 225);
+            border-radius: 15px;
+        }
+
+        .goods .w .shelf .one_goods div {
+            height: 230px;
+            width: 250px;
+            position: absolute;
+            background-color: rgb(255, 0, 0);
+            top: 20px;
+            left: 20px;
+            border-radius: 10px;
+        }
+
+        .one_goods img {
+            border-radius: 10px;
+        }
+
+        .one_goods .introduction {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            position: relative;
+            font-size: 22px;
+            flood-color: rgb(46, 46, 46);
+            top: 21px;
+            left: 0px;
+        }
+
+        .one_goods .price {
+            position: absolute;
+            font-size: 24px;
+            flood-color: rgb(46, 46, 46);
+            top: 328px;
+            left: 0px;
+        }
+
+        .one_goods .info {
+            position: absolute;
+            font-size: 16px;
+            flood-color: rgb(46, 46, 46);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            top: 334px;
+            left: 82px;
+        }
+
+        /* <!-- 商品卡片-----------------------------------------------end -** */
+    </style>
+    <!-- <link rel="stylesheet" href="../fonts/font_25nj7l0qnpp/iconfont.css"> -->
+    <link rel="stylesheet" href="../CSS/base.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        em,
+        i {
+            font-style: normal
+        }
+
+        li {
+            list-style: none
+        }
+
+        img {
+            border: 0;
+            vertical-align: middle
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        a {
+            color: #666;
+            text-decoration: none
+        }
+
+        a:hover {
+            color: #c81623
+        }
+
+        button,
+        input {
+            border: 0;
+            outline: none;
+            font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif
+        }
+
+        body {
+            -webkit-font-smoothing: antialiased;
+            background-color: #fff;
+            font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+            color: #666
+        }
+
+        .hide,
+        .none {
+            display: none
+        }
+
+        .clearfix:after {
+            visibility: hidden;
+            clear: both;
+            display: block;
+            content: ".";
+            height: 0
+        }
+
+        .clearfix {
+            *zoom: 1
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="../CSS/common.css"> -->
+    <style>
+        /* 初始化***************************************************** */
+
+        a,
+        h2 {
+            text-decoration: none;
+            /* 链接取消下划线 */
+        }
+
+        * {
+            /* *渲染较慢 */
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        /* 字体引入************************************************** */
+
+        @font-face {
+            font-family: 'iconfont_0';
+            /* 使用记录：下箭头 */
+            src: url('../fonts/font_25nj7l0qnpp/iconfont.eot');
+            src: url('../fonts/font_25nj7l0qnpp/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/font_25nj7l0qnpp/iconfont.woff2') format('woff2'), url('../fonts/font_25nj7l0qnpp/iconfont.woff') format('woff'), url('../fonts/font_25nj7l0qnpp/iconfont.ttf') format('truetype'), url('../fonts/font_25nj7l0qnpp/iconfont.svg#iconfont') format('svg');
+        }
+
+        /* 常用class************************************************* */
+
+        .iconfont_0 {
+            font-family: "iconfont_0";
+        }
+
+        .w {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        #w_bg {
+            background: rgba(244, 244, 244);
+        }
+
+        /* 箭头字体伪元素 */
+
+        /* 导航栏******************************************************* */
+
+        .shortcut {
+            height: 31px;
+            background-color: rgb(209, 209, 209);
+            font-size: 17px;
+        }
+
+        .shortcut .fl ul li {
+            float: left;
+        }
+
+        .shortcut .fr ul li {
+            float: right;
+        }
+
+        .shortcut .fr ul li:nth-child(even) {
+            width: 1px;
+            height: 17px;
+            margin: 3px 5px 6px;
+            background-color: rgb(27, 27, 27);
+        }
+
+        /* header********************************start*********************** */
+
+        .header {
+            height: 120px;
+            position: relative;
+            background-color: #fcd1d1;
+        }
+
+        .logo {
+            position: relative;
+            height: 70px;
+            width: 210px;
+            top: 18px;
+            left: 20px;
+            background-color: rgba(234, 0, 255, 0);
+        }
+
+        .logo a {
+            display: block;
+            height: 80px;
+            width: 210px;
+            font-size: 0;
+            background: url(../img/logo工程/栗子logo.png) no-repeat;
+        }
+
+        .search {
+            position: absolute;
+            top: 25px;
+            left: 307px;
+            width: 555px;
+            height: 43px;
+            border-radius: 5px;
+            border: 2px solid rgba(253, 148, 148);
+        }
+
+        .search input {
+            float: left;
+            width: 458px;
+            height: 39px;
+            font-size: 17px;
+            padding-left: 10px;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search button {
+            float: left;
+            width: 93px;
+            height: 39px;
+            font-size: 18px;
+            color: #ffffff;
+            background-color: rgba(253, 148, 148);
+        }
+
+        .hotwords {
+            position: absolute;
+            top: 77px;
+            left: 311px;
+            color: aliceblue;
+        }
+
+        .hotwords a {
+            margin: 0 8px;
+        }
+
+        .shopcar {
+            position: absolute;
+            padding-left: 21px;
+            padding-top: 13px;
+            font-size: 18px;
+            color: aliceblue;
+            top: 28px;
+            left: 962px;
+            width: 160px;
+            height: 50px;
+            background-color: rgba(253, 148, 148);
+        }
+
+        .count {
+            position: absolute;
+            font-size: 14px;
+            height: 19px;
+            top: -5px;
+            left: 126px;
+            color: #ffffff;
+            background-color: rgb(255, 2, 2);
+            padding: 0 5px;
+            border-radius: 8px 8px 8px 0;
+        }
+
+        /* header********************************end*********************** */
+
+        /* nav********************************stare*********************** */
+
+        .nav {
+            height: 50px;
+            background-color: rgb(236, 226, 225);
+        }
+
+        .nav .w .dropdown {
+            /* display: inline-block; */
+            width: 250px;
+            height: 350px;
+            font-size: 25px;
+        }
+
+        .nav .w .dropdown .dt {
+            line-height: 50px;
+            font-size: 25px;
+            background-color: rgb(253, 148, 148);
+            text-align: center;
+            color: rgb(255, 255, 255);
+            /* border-top: 1px solid rgb(253, 148, 148);
+    border-left: 1px solid rgb(253, 148, 148);
+    border-right: 1px solid rgb(253, 148, 148); */
+        }
+
+        .nav .dropdown .dd ul {
+            border-bottom: 2px solid rgb(253, 148, 148);
+            border-left: 2px solid rgb(253, 148, 148);
+            border-right: 2px solid rgb(253, 148, 148);
+        }
+
+        .nav .dropdown .dd ul div {
+            color: rgb(116, 114, 112);
+            background-color: rgb(252, 209, 209);
+        }
+
+        .nav .dropdown .dd ul li {
+            position: relative;
+            /* display: none; */
+            line-height: 48px;
+            /* border: 1px solid rgb(252, 209, 209); */
+            font-size: 22px;
+            padding: 0px 0px 5px 26px;
+        }
+
+        .nav .dropdown .dd ul li p {
+            display: inline-block;
+            position: absolute;
+            width: 250px;
+            height: 55px;
+            /* color: rgb(255, 255, 255); */
+            top: 0px;
+            left: 213px;
+        }
+
+        .nav .dropdown .dd ul div:hover {
+            color: rgb(116, 114, 112);
+            background-color: rgb(255, 255, 255);
+        }
+
+        .nav .navitems {
+            position: relative;
+            top: -350px;
+            left: 250px;
+            width: 950px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .nav .navitems ul {
+            background-color: rgb(236, 226, 225);
+        }
+
+        .nav .navitems ul a {
+            display: inline-block;
+            font-size: 22px;
+            color: rgb(46, 46, 46);
+            padding: 0 18px;
+            line-height: 50px;
+        }
+
+        /* nav********************************end*********************** */
+
+        /* footer模块制作 ---------------------------------------------------------starte */
+
+        .footer {
+            /* display: none; */
+            position: relative;
+            bottom: -450px;
+            /* left: 100px; */
+            height: 560px;
+            /* background-color: rgb(129, 150, 150); */
+            background-color: rgb(252, 209, 209);
+        }
+
+        .footer .mod_service ul {
+            /* position: relative; */
+            position: absolute;
+            top: 12px;
+            left: 360px;
+        }
+
+        .footer .w .mod_service ul li {
+            position: relative;
+            /* position: absolute; */
+            left: 0px;
+            height: 120px;
+            width: 210px;
+            float: left;
+            margin: 0 45px;
+            background-color: rgba(255, 137, 137, 0);
+        }
+
+        .footer .w .mod_service ul li:nth-of-type(1) div {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(204, 116, 0);
+            background: url(../img/底栏精灵图.png) no-repeat 0 0;
+            /* background-size: 480px 120px; */
+        }
+
+        .footer .w .mod_service ul li:nth-of-type(2) div {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(204, 116, 0);
+            background: url(../img/底栏精灵图.png) no-repeat -100px 0px;
+            /* background-size: 480px 120px; */
+        }
+
+        .footer .w .mod_service ul li:nth-of-type(3) div {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(204, 116, 0);
+            background: url(../img/底栏精灵图.png) no-repeat -200px 0px;
+            /* background-size: 480px 120px; */
+        }
+
+        .footer .w .mod_service ul li:nth-of-type(4) div {
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(204, 116, 0);
+            background: url(../img/底栏精灵图.png) no-repeat -300px 0px;
+            /* background-size: 480px 120px; */
+        }
+
+        .footer .w .mod_service ul li p {
+            position: relative;
+            top: 22px;
+            left: 9px;
+            color: rgb(116, 114, 112);
+            font-size: 21px;
+        }
+
+        .footer .w .bottom {
+            position: absolute;
+            top: 150px;
+            left: 352px;
+            border-top: 2px solid rgb(116, 114, 112);
+            border-bottom: 2px solid rgb(116, 114, 112);
+            /* background-color: rgb(73, 73, 73); */
+        }
+
+        .footer .w .mod_bottom {
+            position: relative;
+            float: left;
+            top: 0px;
+            left: 45px;
+            margin: 0px 90px 0px 0px;
+            width: 210px;
+            height: 285px;
+            /* background-color: rgb(255, 255, 255); */
+        }
+
+        .footer .w .mod_bottom p {
+            position: relative;
+            font-size: 22px;
+            top: 36px;
+        }
+
+        .footer .w .mod_bottom p a {
+            color: rgb(116, 114, 112);
+            display: block;
+            text-align: center;
+        }
+
+        /* 二维码********************************************************************* */
+
+        .footer .help {
+            position: relative;
+            width: 250px;
+            height: 250px;
+        }
+
+        .footer .help p {
+            display: inline-block;
+            position: relative;
+            font-size: 33px;
+            top: 155px;
+            left: 1648px;
+            color: rgb(116, 114, 112);
+        }
+
+        .footer .help_img {
+            display: inline-block;
+            position: relative;
+            top: 190px;
+            left: 1610px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            width: 200px;
+            height: 200px;
+        }
+
+        .footer .help img {
+            position: absolute;
+            display: inline-block;
+            top: 13px;
+            left: 10px;
+        }
+
+        /* mod_copyright*************************** */
+
+        .mod_copyright {
+            position: relative;
+        }
+
+        .mod_copyright ul {
+            position: relative;
+            top: 212px;
+            left: 568px;
+        }
+
+        .mod_copyright ul li {
+            display: inline-block;
+            position: relative;
+            top: 0px;
+            left: 0px;
+            font-size: 15px;
+            margin-right: 5px;
+            color: rgb(116, 114, 112);
+        }
+
+        .mod_copyright ul li:nth-of-type(2n) {
+            width: 1px;
+            height: 12px;
+            background-color: rgb(116, 114, 112);
+        }
+
+        .mod_copyright p {
+            position: relative;
+            top: 212px;
+            left: 438px;
+            font-size: 15px;
+            color: rgb(116, 114, 112);
+        }
+
+        /* footer模块制作 ---------------------------------------------------------end */
+    </style>
+</head>
+
+<body>
+    <div class="" id="w_bg">
+        <!-- 导航栏大盒子    分为左右两个板块-------------------------------开始-->
+        <div class="shortcut">
+
+            <div class="w">
+                <!-- 左板块 -->
+                <div class="fl">
+                    <ul>
+                        <li>栗子商城欢迎您&nbsp;&nbsp;</li>
+                        <li><a href="">请登录</a><a href="">&nbsp;&nbsp;免费注册</a></li>
+                    </ul>
+                </div>
+
+                <!-- 右板块 -->
+                <div class="fr">
+                    <ul>
+                        <li>登出</li>
+                        <li></li>
+                        <li class="iconfont_0">我的订单&#xe7b2;</li>
+                        <li></li>
+                        <li class="iconfont_0">我的收藏&#xe7b2;</li>
+                        <li></li>
+                        <li class="iconfont_0">我的空间&#xe7b2;</li>
+                        <li></li>
+                        <li>联系我们</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏大盒子    分为左右两个板块-------------------------------结束-->
+
+
+        <!-- header开始----------------------------------------------------- -->
+        <header class="w header">
+            <!-- logo开始----------------------------- -->
+            <div class="logo">
+                <h1>
+                    <a href="lizi_shop.html" title="lizi_shop对生活充满热情">CGGO</a>
+                </h1>
+            </div>
+            <!-- logo结束----------------------------- -->
+            <!-- 搜索组件开始---------------------------- -->
+            <div class="search">
+                <input type="search" placeholder="甜娘的列表">
+                <button>搜索</button>
+            </div>
+            <!-- 热词模块--------------------------------- -->
+            <div class="hotwords">
+                <a href="#">蝶恋纷飞</a>
+                <a href="#">占星猫</a>
+                <a href="#">知更鸟</a>
+                <a href="#">SK十日行</a>
+                <a href="#">阿尔克纳之梦</a>
+                <a href="#">妖精王国</a>
+                <a href="#">止战之殇</a>
+                <a href="#">格里学院</a>
+            </div>
+            <div class="shopcar iconfont_0">
+                <p>&#xe749;我的购物车&#xe743;</p>
+                <!-- 弹性宽度小细节 -->
+                <i class="count">8</i>
+            </div>
+        </header>
+        <!-- header结束----------------------------------------------------- -->
+
+
+        <!-- nav模块制作 -----------starte--------------------------------------->
+        <nav class="nav">
+            <div class="w">
+                <!-- 竖的导航栏--------------------------------------------开始-------------------------- -->
+                <div class="dropdown  iconfont_0">
+
+                    <div class="dt">主题</div>
+                    <div class="dd">
+                        <ul>
+
+                            <div>
+                                <li>甜系<p>&#xe743;
+                                    </p>
+                                </li>
+                            </div>
+                            <div>
+                                <li>CIA<p>&#xe743;
+                                    </p>
+                                </li>
+                            </div>
+                            <div>
+                                <li>哥特系<p>&#xe743;</p>
+                                </li>
+                            </div>
+                            <div>
+                                <li>国风<p>&#xe743;
+                                    </p>
+                                </li>
+                            </div>
+                            <div>
+                                <li>和风<p>&#xe743;
+                                    </p>
+                                </li>
+                            </div>
+                            <div>
+                                <li>小王子<p>&#xe743;</p>
+                                </li>
+                            </div>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- 竖的导航栏--------------------------------------------结束-------------------------- -->
+                <!-- 横的导航栏--------------------------------------------开始-------------------------- -->
+                <div class="navitems fl">
+                    <ul>
+                        <a href="">
+                            <li>Honey Honey</li>
+                        </a>
+                        <a href="">
+                            <li>英伦风格</li>
+                        </a>
+                        <a href="">
+                            <li>古典玩偶</li>
+                        </a>
+                        <a href="">
+                            <li>新路德维希</li>
+                        </a>
+                        <a href="">
+                            <li>长耳朵与尖耳朵</li>
+                        </a>
+                        <a href="">
+                            <li>榛果可可花束</li>
+                        </a>
+                    </ul>
+                </div>
+                <!-- 横的导航栏--------------------------------------------结束-------------------------- -->
+            </div>
+
+        </nav>
+
+
+        <!-- 首页专有模块----------------------------------------------------- -->
+
+        <div class="w">
+
+            <!-- main --------------------------------------------------------start -->
+
+            <main class="main">
+                <div class="focus">
+                    <div class="iconfont_0">
+                        <p>&#xe744;</p>
+                    </div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <div class="iconfont_0">
+                        <p>&#xe743;</p>
+                    </div>
+                </div>
+                <div class="newsflash">
+                    <div class="info">
+                        <ul>
+                            <a href="">
+                                <li>【满减】占星猫系列</li>
+                            </a>
+                            <a href="">
+                                <li>【抽奖】二次城堡店铺开业</li>
+                            </a>
+                            <a href="">
+                                <li>【八折】古岚全场八折</li>
+                            </a>
+                            <a href="">
+                                <li>【赠送】海洋之音小物赠送</li>
+                            </a>
+                            <a href="">
+                                <li>【公益】栗子计划</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <div>
+                                    <p>客服</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>活动</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>公告</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>订单</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>二手</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>社区</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>工会</p>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <p>公益</p>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+
+            <!-- main --------------------------------------------------------end- -->
+
+            <!-- recom --------------------------------------------------------start -->
+
+            <div class="recom">
+
+                <ul class="w">
+                    <li>
+                        <img src="../img/main/recom/茜云学院.png" alt="" width="281px">
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                        <img src="../img/main/recom/翡翠森林.png" alt="" width="281px">
+                    </li>
+                    <li></li>
+                    <li>
+                        <img src="../img/main/recom/阿尔克纳之梦.png" alt="" width="281px">
+                    </li>
+                    <li></li>
+                    <li>
+                        <img src="../img/main/recom/珍妮小姐 .png" alt="" width="281px">
+                    </li>
+                    <div>
+                        <p>猜你喜欢</p>
+                    </div>
+                </ul>
+            </div>
+            <!-- recom --------------------------------------------------------end -->
+
+
+            <!-- best_sell-----------------------------------------------start-------- -->
+            <div class="best_sell">
+                <div class="w">
+                    <img src="../img/main/best_sell/小熊你好.png" alt="" width="1200px">
+                </div>
+            </div>
+
+            <!-- best_sell-----------------------------------------------end-------- -->
+
+            <!-- 经常看---------------------------------------------------start----- -->
+            <div class="offten_look">
+                <div class="w">
+                    <div class="big">
+                        <img src="../img/offten_look/honeyhoney.png" alt="" width="780px">
+                    </div>
+                    <ul class="up_ul">
+                        <li>
+                            <div></div>
+                            <p>礼物推荐</p>
+                        </li>
+                        <li>
+                            <div></div>
+                            <p>合作指南</p>
+                        </li>
+                    </ul>
+
+                    <ul class="down_ul">
+                        <li>
+                            <div></div>
+                            <p>折扣查询</p>
+                        </li>
+                        <li>
+                            <div></div>
+                            <p>信息询问</p>
+                        </li>
+                    </ul>
+
+                    <img src="../img/offten_look/kuang.png" class="kuang" alt="">
+                </div>
+            </div>
+            <!-- 经常看---------------------------------------------------end----- -->
+
+            <!-- 商品卡片-------------------------------------------------start ----->
+            <div class="goods">
+                <div class="w huojia">
+                    <div></div>
+                    <div></div>
+                    <img src="../img/goods/货架.png" alt="">
+                </div>
+                <div class="w">
+                    <div class="shelf no1">
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/日系洛丽塔阿尔克纳之梦op重工华丽复古开襟蕾丝lolita连衣裙.png" alt="" width="250px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;日系洛丽塔阿尔克纳之梦op
+                                        重工华丽复古开襟蕾丝lolita连衣裙</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                    <p></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【兰斯洛特】原创lolita 高跟粗跟蝴蝶结 lo鞋.png" alt="" width="250px">
+                                    <p class="introduction">【兰斯洛特】原创lolita 高跟粗跟蝴蝶结</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【小物】阿尔可纳之梦-头饰蝴蝶结.png" alt="" width="250px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【小物】【原创】阿尔可纳之梦-头饰蝴蝶结</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/四月安丨草莓天使SP JSK 经典甜款 原创设计 Lolita.png" alt="" width="250px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【四月安】草莓天使SP JSK 经典甜款 原创设计 Lolita</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="shelf no2">
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【定金合集】除夕上新 熊猫梦竹 系列 Cute.Q CuteQ原创lolita裙.png" alt=""
+                                        width="250px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【定金合集】除夕上新 熊猫梦竹 系列 Cute.Q
+                                        CuteQ原创lolita裙</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/四月安丨国风-调香 原创设计Lolita 现货.png" alt="" width="250px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【兰斯洛特】原创lolita 高跟粗跟蝴蝶结</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【现货】除夕上新 熊猫梦竹 系列 Cute.Q CuteQ原创lolita裙.png" alt=""
+                                        width="251px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【现货】熊猫梦竹 系列 Cute.Q
+                                        CuteQ原创lolita裙</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【官方正品Honeyhoney】包邮 占星猫长袖op 洛丽塔 lolita裙 现货.png" alt=""
+                                        width="251px">
+                                    <p class="introduction">【Honeyhoney】【官方正品】包邮 占星猫长袖op 洛丽塔
+                                        lolita裙 现货</p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="shelf no3">
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【honeyhoney lolita】【现货】洋娃娃系列Lolita背带.png" alt=""
+                                        width="250px">
+                                    <p class="introduction">
+                                        【honeyhoney】lolita【现货】洋娃娃系列Lolita背带
+                                    </p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【原创】秋冬森林小红帽lolita新年红洛丽塔可爱斗篷绑带少女OP连衣裙.png" alt=""
+                                        width="251px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【原创】秋冬森林小红帽lolita新年红洛丽塔可爱斗篷绑带少女OP连衣裙
+                                    </p>
+                                    <p class="price">￥998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【Honey honey】洋娃娃与小熊跳舞 小物边 夹KC.png" alt="" width="251px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【Honey honey】洋娃娃与小熊跳舞 小物边 夹KC</p>
+                                    <p class="price">￥977</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;744人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/巴朵妮lolita原创正版小王子长袖op洛丽塔连衣裙日系优雅甜美洋装.png" alt="" width="251px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;巴朵妮lolita原创正版小王子长袖op洛丽塔连衣裙日系优雅甜美洋装
+                                    </p>
+                                    <p class="price">￥958</p>
+                                    <p class="info">585人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="shelf no4">
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/巴朵妮Lolita现货原创洛丽塔巧巧饼JSK吊带日系连衣裙洋装小裙子.png" alt="" width="250px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;巴朵妮Lolita现货原创洛丽塔巧巧饼JSK吊带日系连衣裙洋装小裙子
+                                    </p>
+                                    <p class="price">￥458</p>
+                                    <p class="info">885人收藏&nbsp;&nbsp;744人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/巴朵妮Lolita现货原创洛丽塔星空吊带日系连衣裙洋装小裙子.png" alt="" width="251px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;巴朵妮Lolita现货原创洛丽塔星空吊带日系连衣裙洋装小裙子</p>
+                                    <p class="price">￥569</p>
+                                    <p class="info">575人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/【新年新品】安东尼蛋糕SP 薄荷奶绿古典玩偶 lolita 全款预约.png" alt="" width="251px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;【新年新品】安东尼蛋糕SP 薄荷奶绿古典玩偶 lolita 全款预约
+                                    </p>
+                                    <p class="price">￥1569</p>
+                                    <p class="info">1555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="one_goods">
+                            <a href="">
+                                <div>
+                                    <img src="../img/goods/狼化小红帽FS 崩坏人偶 lolita连衣裙 现货.png" alt="" width="251px">
+                                    <p class="introduction">&nbsp;&nbsp;&nbsp;&nbsp;狼化小红帽FS 崩坏人偶 lolita连衣裙 现货</p>
+                                    <p class="price">￥1998</p>
+                                    <p class="info">555人收藏&nbsp;&nbsp;777人付款</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- 商品卡片-------------------------------------------------end ----->
+        </div>
+
+
+
+        <!-- footer模块制作 -----------starte--------------------------------------->
+        <footer class="footer">
+            <div class="w">
+                <div class="mod_service">
+                    <ul>
+                        <li>
+                            <div>
+
+                            </div>
+                            <p>
+                                送货上门
+                                无需担心
+                            </p>
+                        </li>
+                        <li>
+                            <div>
+
+                            </div>
+                            <p>
+                                坚如磐石
+                                钻石服务
+                            </p>
+                        </li>
+                        <li>
+                            <div>
+
+                            </div>
+                            <p>
+                                来自全球
+                                创意无限
+                            </p>
+                        </li>
+                        <li>
+                            <div>
+
+                            </div>
+                            <p>
+                                扫码溯源
+                                省时省心
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="bottom">
+                    <div class="mod_bottom">
+                        <p>
+                            <a href="#">购买流程</a>
+                            <a href="#">方案</a>
+                            <a href="#">校对</a>
+                            <a href="#">核实</a>
+                            <a href="#">后续修改</a>
+                            <a href="#">验收</a>
+
+                        </p>
+
+                    </div>
+                    <div class="mod_bottom">
+                        <p>
+                            <a href="#">品质保障</a>
+                            <a href="#">协议</a>
+                            <a href="#">隐私协议</a>
+                            <a href="#">消费者</a>
+                            <a href="#">退款协议</a>
+                        </p>
+
+                    </div>
+                    <div class="mod_bottom">
+                        <p>
+                            <a href="#">我是创作者</a>
+                            <a href="#">合作</a>
+                            <a href="#">需求</a>
+                            <a href="#">加入我们</a>
+                            <a href="#">第三方条款</a>
+
+                        </p>
+
+                    </div>
+                    <div class="mod_bottom">
+                        <p>
+                            <a href="#">联系我们</a>
+                            <a href="#">微信</a>
+                            <a href="#">推特</a>
+                            <a href="#">邮箱</a>
+
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="help">
+
+                <p>QQ联系</p>
+
+                <div class="help_img">
+                    <img src="../img/个人二维码.jpg" alt="" width="175px">
+                </div>
+            </div>
+
+            <div class="mod_copyright">
+                <ul>
+                    <li>购买者条款</li>
+                    <li></li>
+                    <li>创作者条款</li>
+                    <li></li>
+                    <li>退货指南</li>
+                    <li></li>
+                    <li>商务合作</li>
+                    <li></li>
+                    <li>团队联系</li>
+                    <li></li>
+                    <li>版权疑问</li>
+                    <li></li>
+                    <li>栗子社区</li>
+                    <li></li>
+                    <li>栗子工会</li>
+                    <li></li>
+                    <li>加盟条约</li>
+                    <li></li>
+                    <li>关于我们</li>
+                </ul>
+                <p>
+                    地址：帕拉迪岛玛丽城墙自由街道666户4-5，邮编6666
+                    传真：010-5695165198 邮箱：2333333333@qq.com
+                    帕ICP备0606060606号京公网安备110665151651
+                </p>
+            </div>
+        </footer>
+        <!-- footer模块制作 ------------end---------------------------------------->
+    </div>
+</body>
+
+</html>
